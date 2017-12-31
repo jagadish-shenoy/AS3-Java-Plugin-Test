@@ -1,1 +1,1 @@
-include ':app', ':SampleJarCreator', ':lib'
+include ':app', ':SampleJar', ':TestModule'

@@ -9,7 +9,7 @@ I have an android project with a few Java Modules. One of the java modules has a
 
 <b>Issue:</b>
 
-But with Android studio 3.0, ClassNotFoundException is thrown at runtime for the classes in the jar, detailed analysis releved that classes from the jar file are not included at all in the final output!.
+But with Android studio 3.0, ClassNotFoundException is thrown at runtime for the classes in the jar, detailed analysis revealed that classes from the jar file are not included at all in the final output!.
 
 ```Java
 Exception in thread "main" java.lang.NoClassDefFoundError: com/example/lib2/Lib2
@@ -37,7 +37,7 @@ sourceCompatibility = "1.7"
 targetCompatibility = "1.7"
 ```
 
-I have verified this gradle configuration from IntelliJ IDEA, it just work fine there.
+I have verified this gradle configuration from IntelliJ IDEA, it just works fine there.
 
 <b>Structure of this Sample code</b>:<br />
 
